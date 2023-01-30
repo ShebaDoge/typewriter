@@ -1,0 +1,302 @@
+<html>
+  <head>
+    <style>
+      html,body{
+        font-family: monospace;
+        background-color:black;
+        width:100%;
+        height:100%;
+        margin:0%;
+        padding:0%;
+      }
+      .cen{
+        margin:auto;
+        padding:10px;
+        background-color:white;
+        width:30%;
+      }
+      .note{
+        color:white;
+        font-size:12px;
+      }
+      @media print
+{
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+butto{
+  border:none;
+  outline:none;
+  background-color:white;
+  padding:2px;
+  cursor: default;
+display: inline-block
+}
+butto:hover{
+  background-color:#e3e3e3;
+  display: inline-block;
+  box-shadow: 2px 2px grey;
+  transition-duration:0.5s;
+  
+}
+    </style>
+<script>
+
+  document.addEventListener('keydown', (event) => {
+  var name = event.key;
+  var code = event.code;
+  
+  if (name == "q"){
+  var num = "q";
+  }if (name == "w"){
+
+  var num = "w";
+  }if (name == "e"){
+ 
+  var num = "e";
+  }if (name == "r"){
+ 
+  var num = "r";
+  }if (name == "t"){
+
+  var num = "t";
+  }if (name == "y"){
+
+  var num = "y";
+  }if (name == "u"){
+
+  var num = "u";
+  }if (name == "i"){
+
+  var num = "i";
+  }if (name == "o"){
+
+  var num = "o";
+  }
+  if (name == "p"){
+
+  var num = "p";
+  }
+  if (name == "a"){
+
+  var num = "a";
+  }if (name == "s"){
+
+  var num = "s";
+  }if (name == "d"){
+
+  var num = "d";
+  }if (name == "f"){
+
+  var num = "f";
+  }if (name == "g"){
+
+  var num = "g";
+  }if (name == "h"){
+
+  var num = "h";
+  }if (name == "j"){
+
+  var num = "j";
+  }if (name == "k"){
+
+  var num = "k";
+  }if (name == "l"){
+
+  var num = "l";
+  }if (name == "z"){
+
+  var num = "z";
+  }if (name == "x"){
+
+  var num = "x";
+  }if (name == "c"){
+
+  var num = "c";
+  }if (name == "v"){
+
+  var num = "v";
+  }if (name == "b"){
+
+  var num = "b";
+  }if (name == "n"){
+
+  var num = "n";
+  }if (name == "m"){
+
+  var num = "m";
+  }if (name == "1"){
+
+  var num = 1;
+  }if (name == "2"){
+
+  var num = 2;
+  }if (name == "3"){
+
+  var num = 3;
+  }if (name == "4"){
+
+  var num = 4;
+  }if (name == "5"){
+
+  var num = 5;
+  }if (name == "6"){
+
+  var num = 6;
+  }if (name == "7"){
+
+  var num = 7;
+  }if (name == "8"){
+
+  var num = 8;
+  }if (name == "9"){
+
+  var num = 9;
+  }if (name == "0"){
+
+  var num = 0;
+  }if (name == "."){
+
+  var num = ".";
+  }if (name == "!"){
+
+  var num = "!";
+  }if (name == "#"){
+
+  var num = "#";
+  }if (name == "("){
+
+  var num = "(";
+  }if (name == ")"){
+
+  var num = ")";
+  }if (name == " "){
+
+  var num = "&nbsp;";
+  }if (name == "?"){
+
+  var num = "?";
+  }if (name == ","){
+
+  var num = ",";
+  }if (name == "Enter"){
+
+  var num = "<br>";
+  }if (name == "_"){
+
+  var num = "&#12288;";
+  }if (name == "Q"){
+  var num = "Q";
+  }if (name == "W"){
+
+  var num = "W";
+  }if (name == "E"){
+ 
+  var num = "E";
+  }if (name == "R"){
+ 
+  var num = "R";
+  }if (name == "T"){
+
+  var num = "T";
+  }if (name == "Y"){
+
+  var num = "Y";
+  }if (name == "U"){
+
+  var num = "U";
+  }if (name == "I"){
+
+  var num = "I";
+  }if (name == "O"){
+
+  var num = "O";
+  }
+  if (name == "P"){
+
+  var num = "P";
+  }
+  if (name == "A"){
+
+  var num = "A";
+  }if (name == "S"){
+
+  var num = "S";
+  }if (name == "D"){
+
+  var num = "D";
+  }if (name == "F"){
+
+  var num = "F";
+  }if (name == "G"){
+
+  var num = "G";
+  }if (name == "H"){
+
+  var num = "H";
+  }if (name == "J"){
+
+  var num = "J";
+  }if (name == "K"){
+
+  var num = "K";
+  }if (name == "L"){
+
+  var num = "L";
+  }if (name == "Z"){
+
+  var num = "Z";
+  }if (name == "X"){
+
+  var num = "X";
+  }if (name == "C"){
+
+  var num = "C";
+  }if (name == "V"){
+
+  var num = "V";
+  }if (name == "B"){
+
+  var num = "B";
+  }if (name == "N"){
+
+  var num = "N";
+  }if (name == "M"){
+
+  var num = "M";
+  }
+  if (num!=NaN){
+    if (num!=undefined){
+      
+    var pot = document.getElementById("test").innerHTML+=num;
+      
+    }
+  }
+ function print(){
+alert(pot)
+ }
+  
+}, false);
+
+</script>
+<script>
+private void button1_OnKeyDown(Object sender, KeyEventArgs e){
+	    if (e.KeyData == Keys.Space) e.SuppressKeyPress = true;}
+</script>
+</head><body><butto onClick="print()" class='no-print'>Print</butto>&nbsp;<butto class="no-print" onClick="location.reload()">clear</butto><br>
+  <div class="cen" style="height:500px;white-space: nowrap;overflow: hidden;">
+    <br><br>
+  <p id="test" style="width:80%; margin:auto;"></p>
+  </div>
+  <p class="note no-print">
+  <b>Instructions</b><br>
+  Underscore=Tab&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello! Welcome to this project where you<br>
+  No backspace&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;can strugle to retype an entire essay<br>
+  Typewriter style&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;because there is no backspace. F U N isnt it?
+  
+  </p>
+
+</body>
+</html>
